@@ -1,0 +1,148 @@
+html {
+  font-size: 6.25%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  line-height: 1;
+  font-size: 16rem;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+em,
+i,
+address {
+  font-style: normal;
+}
+
+.inner {
+  max-width: 1200rem;
+  margin: 0 auto;
+  padding: 0 15rem;
+}
+
+.Header {
+  border-bottom: 1px solid #f2f2f2;
+}
+.Header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rem;
+}
+.Header .inner .gnb > ul {
+  display: flex;
+  gap: 40rem;
+}
+.Header .inner .gnb > ul > li {
+  position: relative;
+}
+.Header .inner .gnb > ul > li > a {
+  display: block;
+  line-height: 99rem;
+}
+.Header .inner .gnb > ul > li .submenu {
+  position: absolute;
+  top: 90rem;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, 0);
+  width: 120rem;
+  background: #369;
+  color: #fff;
+  border: 2px solid #fff;
+  display: none;
+}
+.Header .inner .gnb > ul > li:hover .submenu {
+  display: block;
+}
+
+.MainVisual {
+  position: relative;
+  height: 100vh;
+  background: #369;
+}
+.MainVisual .slogon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1200rem;
+  width: 100%;
+}
+.MainVisual .slogon h2 {
+  font-size: 40rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 10rem 0;
+}
+
+.SubPage .sub_title {
+  display: flex;
+  align-items: center;
+  height: 300rem;
+  background: #f2f2f2;
+}
+.SubPage .sub_title .inner {
+  width: 100%;
+}
+.SubPage .aside {
+  max-width: 1200rem;
+  margin: 0 auto;
+  padding: 0 15rem;
+  background: #369;
+  color: #fff;
+  padding: 30rem 50rem;
+  border-radius: 30rem 0 0 0;
+  margin: -40rem auto 0 auto;
+}
+.SubPage .aside .submenu {
+  display: flex;
+  gap: 30rem;
+}
+.SubPage .aside .submenu li {
+  position: relative;
+}
+.SubPage .aside .submenu li.on::after {
+  content: "";
+  position: absolute;
+  top: -20rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.SubContent {
+  padding: 50rem 0;
+}
+
+.Footer {
+  padding: 30rem 0;
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+}/*# sourceMappingURL=style.css.map */
