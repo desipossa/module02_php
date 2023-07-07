@@ -43,6 +43,10 @@ address {
   padding: 0 15rem;
 }
 
+.section {
+  padding: 100rem 0;
+}
+
 .Header {
   border-bottom: 1px solid #f2f2f2;
 }
@@ -81,7 +85,7 @@ address {
 
 .MainVisual {
   position: relative;
-  height: 100vh;
+  height: 30vh;
   background: #369;
 }
 .MainVisual .slogon {
@@ -97,6 +101,32 @@ address {
   font-weight: 700;
   color: #fff;
   margin: 0 0 10rem 0;
+}
+
+.MainContent h3 {
+  font-size: 20rem;
+  font-weight: bolder;
+  padding: 0 0 20rem 0;
+  border-bottom: 1px solid #369;
+  margin: 0 0 10rem 0;
+}
+.MainContent h3 a {
+  float: right;
+}
+.MainContent .inner {
+  display: flex;
+  gap: 30rem;
+}
+.MainContent .inner > * {
+  flex: 1;
+  min-width: 0;
+}
+.MainContent .main_notice li {
+  line-height: 30rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.MainContent .main_notice li span {
+  float: right;
 }
 
 .SubPage .sub_title {
@@ -139,6 +169,10 @@ address {
 
 .SubContent {
   padding: 50rem 0;
+}
+.SubContent .tbl_wrap thead {
+  background: #369;
+  color: #fff;
 }
 
 .Footer {

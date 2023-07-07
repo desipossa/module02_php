@@ -10,7 +10,17 @@ if($board['bo_table']=='qa') {
     $cate_num = 3;
     $page_num = 2;
 }
+
+if($_SERVER[ "PHP_SELF" ] == '/bbs/register.php') {
+    $cate_title = '고객지원';
+    $page_title = '회원가입';
+    $cate_num = 3;
+    $page_num = 2;
+}
+
 ?>
+
+
 
 <main class="SubPage">
             <div class="sub_title" 

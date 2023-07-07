@@ -40,3 +40,7 @@ address {
 .inner {
     @include inner();
 }
+
+.section {
+    @include default();
+}
